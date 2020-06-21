@@ -60,8 +60,8 @@
 		key.addEventListener('transitionend', removeKeyTransition);
 	});
 
-	crashRide.addEventListener('transitionend', removeCrashRideTransition;
-	hiHatTop.addEventListener('transitionend', removeHiHatTopTransition;
+	crashRide.addEventListener('transitionend', removeCrashRideTransition);
+	hiHatTop.addEventListener('transitionend', removeHiHatTopTransition);
 
 	window.addEventListener('keydown', playSound);
 }
